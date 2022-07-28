@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UpcomingEventsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/upcoming_card"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="540dp"
+            android:background="#0DFFFFFF"
+            app:shapeAppearanceOverlay="@style/RoundedBorder" />
+
+        <TextView
+            android:id="@+id/event_details"
+            style="@style/Widget.We.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/upcoming_card"
+            android:layout_alignTop="@+id/upcoming_card"
+            android:layout_alignEnd="@+id/upcoming_card"
+            android:layout_alignBottom="@+id/upcoming_card"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/we_exhibition"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rsvp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/upcoming_card"
+            android:layout_alignTop="@+id/upcoming_card"
+            android:layout_alignEnd="@+id/upcoming_card"
+            android:layout_alignBottom="@+id/upcoming_card"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="55dp"
+            android:text="@string/rsvp" />
+
+        <TextView
+            android:id="@+id/event_head"
+            style="@style/Widget.We.TextView"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/upcoming_card"
+            android:layout_alignTop="@+id/upcoming_card"
+            android:layout_alignEnd="@+id/upcoming_card"
+            android:layout_alignBottom="@+id/upcoming_card"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="238dp"
+            android:layout_marginBottom="85dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/event"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</FrameLayout>

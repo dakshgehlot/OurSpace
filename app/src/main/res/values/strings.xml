@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">WE++</string>
+    <string name="title_home">Home</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_contact">Contact</string>
+    <string name="academics_image">NMIMS Academics Building Image</string>
+    <string name="powered_by_we">Powered by WE++</string>
+    <string name="we">.we</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="get_directions"><a href="https://maps.app.goo.gl/tSX1F3kdAaSogycA8">Get Directions!</a></string>
+    <string name="email">dakshgehlot30@gmail.com</string>
+    <string name="ws_address">
+        Workshop\n
+    X-Wing 2nd Floor\n
+    Academic Wing\n
+    Mukesh Patel Technology Park\n
+    Babulde, Near Tapi Bridge\n
+    Shirpur, Maharashtra 425405\n\n
+        Join the community:
+</string>
+    <string name="we_about_us">
+        We\'re building this new community with the aim of providing a place for people to learn the concepts of programming by real life
+        practical applications. We believe that doing projects is central to the idea of learning
+        to code. Getting handy with new concepts is incomplete without actually using them in
+        live scenarios. And this is where we come in.\n\nIn short, we do cool stuff
+        here.\n\nFor further queries, feel free to contact us or refer to the FAQs:
+    </string>
+    <string name="faqs">FAQs</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="we_exhibition">Monday, March 28th\nto Friday, April 1</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+    <string name="rsvp">RSVP</string>
+    <string name="rsvped">RSVP-ed!</string>
+    <string name="event">EVENT</string>
+    <string name="no_past_events">NO PAST EVENTS</string>
+    <string name="our_den">Our Den:</string>
+    <string name="click_here">Click here!</string>
+</resources>
